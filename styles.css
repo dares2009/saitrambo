@@ -1,0 +1,99 @@
+.price-tab {
+    background-color: #332f44;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .price-tab-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .price-tab-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .price-tab-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .price-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -2.5rem;
+  }
+  
+  .price-item {
+    width: calc(33.333% - 5rem);
+    margin: 0 2.5rem 2.5rem;
+    background-color: #3f3a5a;
+    border-radius: 5px;
+    padding: 2.5rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .price-item:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .price-header {
+    margin-bottom: 2.5rem;
+  }
+  
+  .price-header h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .price-header p {
+    font-size: 1.25rem;
+    margin: 1rem 0 0;
+  }
+  
+  .price-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .price-item li {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+  }
+  
+  .price-item li:last-child {
+    margin-bottom: 0;
+  }
+  a {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+   a:hover {
+    background-color: #c0392b;
+  }
+  
+  a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  

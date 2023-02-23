@@ -1,0 +1,90 @@
+a {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+   a:hover {
+    background-color: #c0392b;
+  }
+  
+  a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  body {
+    background-color: #5e60ce;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.container {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #362c6e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.phone {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.discord {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.instruction {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.button {
+    display: block;
+    background-color: #b597e0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 200px;
+}
+.button:hover {
+    background-color: #a981d7;
+    cursor: pointer;
+}
+.message-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .message-box p {
+    margin-bottom: 20px;
+  }
+  
+  .message-box button {
+    margin: 0 10px;
+  }
+  
+    
+  
+  
